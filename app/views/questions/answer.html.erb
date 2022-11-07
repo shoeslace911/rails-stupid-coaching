@@ -1,0 +1,8 @@
+<div class="text-center container mt-5">
+  <h1>Coach's answer!</h1>
+  <h3 class="bg-warning p-4 bg-opacity-25"><%= @question %></h3>
+  <h1 class="mb-2">-You</h1>
+  <h3 class="bg-warning p-4 bg-opacity-25"><%= @coach_answer %></h3>
+  <h1 class="mb-2">-Dumbass Coach</h1>
+  <%= link_to 'Ask again!',  ask_path, {class: "btn btn-primary" } %>
+</div>
